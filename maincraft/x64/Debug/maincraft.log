@@ -1,2 +1,4 @@
 ﻿  main.cpp
-  maincraft.vcxproj -> C:\Users\tomde\OneDrive\Documents\programmation\C++\maincraft\x64\Debug\maincraft.exe
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'MSVCRT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+main.obj : error LNK2019: symbole externe non résolu __imp_glClear référencé dans la fonction main
+C:\Users\tomde\OneDrive\Documents\programmation\C++\maincraft\x64\Debug\maincraft.exe : fatal error LNK1120: 1 externes non résolus

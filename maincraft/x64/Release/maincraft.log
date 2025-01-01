@@ -1,12 +1,7 @@
 ﻿  main.cpp
-main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ)
-main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@UEAAXXZ)
-main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: virtual __cdecl sf::Window::~Window(void)" (__imp_??1Window@sf@@UEAA@XZ)
-main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __cdecl sf::Window::Window(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0Window@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z)
-main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: bool __cdecl sf::WindowBase::pollEvent(class sf::Event &)" (__imp_?pollEvent@WindowBase@sf@@QEAA_NAEAVEvent@2@@Z)
-main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z)
-main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z)
-main.obj : error LNK2001: symbole externe non résolu __imp_glewExperimental
-main.obj : error LNK2001: symbole externe non résolu __imp_glewInit
-main.obj : error LNK2001: symbole externe non résolu "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ)
-C:\Users\tomde\OneDrive\Documents\programmation\C++\maincraft\x64\Release\maincraft.exe : fatal error LNK1120: 10 externes non résolus
+  Génération de code en cours
+  0 of 1 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  maincraft.vcxproj -> C:\Users\tomde\OneDrive\Documents\programmation\C++\maincraft\x64\Release\maincraft.exe

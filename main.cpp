@@ -1,49 +1,43 @@
+#include <GLFW/glfw3.h>
 
-
-#include <iostream>
-#include <GL/glew.h>
-
-#include <SFML/Window.hpp>
-
-const GLint WIDTH = 800, HEIGHT = 600;
-
-int main()
+int main(void)
 {
-	sf::ContextSettings settings;
-	settings.depthBits = 24;
-	settings.stencilBits = 8;
-	settings.majorVersion = 3;
-	settings.minorVersion = 3;
-	settings.attributeFlags = sf::ContextSettings::Core;
+    GLFWwindow* window;
 
-	sf::Window window(sf::VideoMode(WIDTH, HEIGHT, 32), "MAINCRAFT", sf::Style::Titlebar | sf::Style::Close, settings);
+    /* Initialize the library */
+    if (!glfwInit())
+        return -1;
 
-	glewExperimental = GL_TRUE;
+    /* Create a windowed mode window and its OpenGL context */
+    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    if (!window)
+    {
+        glfwTerminate();
+        return -1;
+    }
 
-	if (GLEW_OK != glewInit()) {
-		std::cout << "Not don't work" << std::endl;
-		return EXIT_FAILURE;
-	}
+    /* Make the window's context current */
+    glfwMakeContextCurrent(window);
 
-	bool running = true;
-	while (running) {
-		sf::Event windowEvent;
+    /* Loop until the user closes the window */
+    while (!glfwWindowShouldClose(window))
+    {
+        /* Render here */
+        glClear(GL_COLOR_BUFFER_BIT);
 
-		while (window.pollEvent(windowEvent)) {
-			switch (windowEvent.type)
-			{
-			case sf::Event::Closed:
-				running = false;
-				break;
-			}
-		}
-		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-		glClear(GL_COLOR_BUFFER_BIT);
+        glBegin(GL_TRIANGLES);
+        glVertex2f(-0.5f, -0.5f);
+        glVertex2f(0.0f,  0.5f);
+        glVertex2f( 0.5f,-0.5f);
+        glEnd();
 
-		window.display();
+        /* Swap front and back buffers */
+        glfwSwapBuffers(window);
 
-	}
-	window.close();
-	return EXIT_SUCCESS;
+        /* Poll for and process events */
+        glfwPollEvents();
+    }
+
+    glfwTerminate();
+    return 0;
 }
-
