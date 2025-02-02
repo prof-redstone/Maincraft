@@ -1,9 +1,20 @@
-﻿  main.cpp
+﻿  VertexArray.cpp
+C:\Users\tomde\OneDrive\Documents\programmation\C++\maincraft\VertexArray.cpp(24,3): warning C4312: 'cast de type' : la conversion de 'unsigned int' en 'const void *' d'une taille supérieure
+  main.cpp
 LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
   Génération de code en cours
-  19 of 215 functions ( 8.8%) were compiled, the rest were copied from previous compilation.
+  2 of 292 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    7 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Fin de la génération du code
 glew32s.lib(glew.obj) : warning LNK4099: PDB '' n'a pu être trouvé avec 'glew32s.lib(glew.obj)' ou sur '' ; l'objet sera lié sans informations de débogage
+LINK : warning LNK4286: le symbole '__glewDeleteBuffers' défini dans 'glew32s.lib(glew.obj)' est importé par 'IndexBuffer.obj'
+LINK : warning LNK4286: le symbole '__glewGenBuffers' défini dans 'glew32s.lib(glew.obj)' est importé par 'IndexBuffer.obj'
+LINK : warning LNK4286: le symbole '__glewBufferData' défini dans 'glew32s.lib(glew.obj)' est importé par 'IndexBuffer.obj'
+LINK : warning LNK4286: le symbole '__glewBindBuffer' défini dans 'glew32s.lib(glew.obj)' est importé par 'IndexBuffer.obj'
+LINK : warning LNK4286: le symbole '__glewGenVertexArrays' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewDeleteVertexArrays' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewVertexAttribPointer' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewBindVertexArray' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewEnableVertexAttribArray' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
   maincraft.vcxproj -> C:\Users\tomde\OneDrive\Documents\programmation\C++\maincraft\x64\Release\maincraft.exe
