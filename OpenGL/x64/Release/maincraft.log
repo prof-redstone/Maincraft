@@ -1,0 +1,23 @@
+﻿  IndexBuffer.cpp
+  main.cpp
+  Renderer.cpp
+  Shader.cpp
+  VertexArray.cpp
+C:\Users\tomde\OneDrive\Documents\programmation\C++\maincraft\VertexArray.cpp(24,3): warning C4312: 'cast de type' : la conversion de 'unsigned int' en 'const void *' d'une taille supérieure
+  VertexBuffer.cpp
+  Previous IPDB not found, fall back to full compilation.
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+  Génération de code en cours
+  All 292 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' n'a pu être trouvé avec 'glew32s.lib(glew.obj)' ou sur '' ; l'objet sera lié sans informations de débogage
+LINK : warning LNK4286: le symbole '__glewDeleteBuffers' défini dans 'glew32s.lib(glew.obj)' est importé par 'IndexBuffer.obj'
+LINK : warning LNK4286: le symbole '__glewGenBuffers' défini dans 'glew32s.lib(glew.obj)' est importé par 'IndexBuffer.obj'
+LINK : warning LNK4286: le symbole '__glewBufferData' défini dans 'glew32s.lib(glew.obj)' est importé par 'IndexBuffer.obj'
+LINK : warning LNK4286: le symbole '__glewBindBuffer' défini dans 'glew32s.lib(glew.obj)' est importé par 'IndexBuffer.obj'
+LINK : warning LNK4286: le symbole '__glewGenVertexArrays' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewDeleteVertexArrays' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewVertexAttribPointer' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewBindVertexArray' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+LINK : warning LNK4286: le symbole '__glewEnableVertexAttribArray' défini dans 'glew32s.lib(glew.obj)' est importé par 'VertexArray.obj'
+  maincraft.vcxproj -> C:\Users\tomde\OneDrive\Documents\programmation\C++\maincraft\x64\Release\OpenGL.exe
